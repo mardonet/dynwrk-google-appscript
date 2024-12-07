@@ -21,7 +21,8 @@ function IMPUESTO(sueldoImponible, valorUTM) {
         { desde: 50, hasta: 70, tasa: 0.135 },
         { desde: 70, hasta: 90, tasa: 0.23 },
         { desde: 90, hasta: 120, tasa: 0.304 },
-        { desde: 120, hasta: Infinity, tasa: 0.35 }
+         { desde: 120, hasta: 150, tasa: 0.35 },
+        { desde: 150, hasta: Infinity, tasa: 0.4 }
     ];
 
     const sueldoEnUTM = sueldoImponible / valorUTM;
